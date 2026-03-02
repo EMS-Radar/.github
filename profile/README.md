@@ -1,12 +1,21 @@
-## Hi there 👋
+# EMS-Radar: 360° Spatial Awareness through EMS
 
-<!--
+This organization contains all repositories (software components and additional resources) related to my master's thesis on the topic of **"360° Spatial Awareness through Electrical Muscle Stimulation."**
 
-**Here are some ideas to get you started:**
+---
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 🛰️ Project Overview
+
+The **EMS-Radar** system is designed to provide users with a "sixth sense" for their immediate surroundings. By translating distance data from a 360° sensor array into tactile sensations via **Electrical Muscle Stimulation (EMS)**, the system allows users to perceive danger zones around them without visual or auditory input.
+
+---
+
+## 📂 Repositories
+
+| Repository | Description | 
+| :--- | :--- |
+| **[control-board-firmware](https://github.com/EMS-Radar/control-board-firmware)** | Firmware of the main control board used to modulate the EMS signal and control the switching board. Based on the [LetYourBodyMove firmware](https://bitbucket.org/MaxPfeiffer/letyourbodymove/src/master/). |
+| **[control-app](https://github.com/EMS-Radar/control-app)** | Flutter-App to control the EMS-Radar system via Bluetooth (BLE) on a mobile device (Smartphone/Tablet) |
+| **[resources](https://github.com/EMS-Radar/resources)** | Additional resources such as case 3D-files and parts lists |
+
+---
